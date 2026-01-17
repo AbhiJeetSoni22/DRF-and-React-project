@@ -1,18 +1,14 @@
-Django==4.2.11
-djangorestframework==3.15.1
-django-cors-headers==4.3.1
-
-# Auth (keep only one)
-djangorestframework-simplejwt==5.3.1
-
-# Database
-psycopg2-binary==2.9.9
-
-# Environment variables
-python-dotenv==1.0.1
-
-# Images
-Pillow==10.3.0
-
-# Server
-gunicorn==21.2.0
+asgiref==3.11.0
+Django==6.0.1
+django-cors-headers==4.9.0
+djangorestframework==3.16.1
+djangorestframework-jwt==1.11.0
+djangorestframework_simplejwt==5.5.1
+dotenv==0.9.9
+pillow==12.1.0
+psycopg2-binary==2.9.11
+PyJWT==1.7.1
+python-dotenv==1.2.1
+sqlparse==0.5.5
+tzdata==2025.3
+gunicorn
